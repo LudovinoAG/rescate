@@ -1,0 +1,193 @@
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Roboto";
+	--ColorFuenteEncabezadoName: white;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+	background-color: rgba(6, 115, 208, 0.1);
+}
+
+.encabezado{
+	display: flex;
+	flex-direction: row;
+	background: rgb(255,0,0);
+	background: linear-gradient(51deg, rgba(208,6,6,1) 21%, rgba(207,207,208,1) 35%);
+	padding: 10px;
+}
+
+.titulo_1{
+	color: black;
+	font-size:1.0em;
+}
+
+.titulo_2{
+	color: var(--ColorFuenteEncabezadoName);
+	font-size:1.0em;
+	letter-spacing: 2px;
+	font-weight: bolder;
+}
+
+.texto_titulo{
+	display: block;
+	color: whitesmoke;
+	font-size:0.8em;
+}
+
+nav{
+	border: 1px solid rgb(161, 161, 161);
+}
+
+nav ul li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 35px;
+	list-style: none;
+	background-color:white;
+	margin-right: 30px;
+	
+}
+
+nav ul li:hover{
+	background-color: rgba(208,6,6,1);
+	color: white;
+}
+
+
+nav ul{
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	background-color: rgba(208,6,6,1);
+	margin-top: 2.5vh;
+}
+
+.top_info{
+	font-size: 0.8em;
+}
+
+.top_info span:first-child{
+	font-weight: bold;
+}
+
+.div_logo img{
+	width: 25px;
+	border-radius: 5px;
+}
+
+.contenido_inicio p{
+
+	padding: 20px;
+	border-radius: 5px;
+}
+
+
+.contenido_inicio_aside p{
+	height: auto;
+
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.contenido_inicio_aside{
+	margin-top: 70px;
+}
+
+.contenido_inicio{
+	margin-top: 20px;
+}
+
+.contenido_inicio h4{
+	border-left: 1px solid brown;
+	border-left-width: medium;
+	padding-left: 5px;
+	margin-bottom: 20px;
+}
+
+footer p{
+	padding-top: 4.3vh;
+	font-size: 0.8em;
+}
+
+footer .firma{
+	font-size: 0.6em;
+	color:rgba(255, 255, 255, 0.5)
+}
+
+
+footer div{
+	height: 65px;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(208, 6, 6, 1);
+}
+
+section{
+	background-image: url('../pics/2.jpg');
+	background-size: contain;
+}
+
+footer .derechos{
+	color:rgba(255, 255, 255, 0.5)
+}
+
+.contenido_recepcion, .contenido_manten, .Main{
+	background-image: none;
+	padding: 20px;
+}
+
+table{
+	background-color: rgba(255, 255, 255, 0.85);
+	font-size: small;
+}
+
+.contenido_manten h4{
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.contenido_recepcion h4{
+	font-size: 1.0em;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+#picfondo #logo{
+	width: 100px;
+	border-radius: 100%;
+}
+
+#ContFormulario{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.piePagina{
+	padding: 20px;
+	color: white;
+	font-size: 0.8em;
+}
+
+.botonIniciar{
+	width: 100%;
+	background-color: rgba(208, 6, 6, 1);
+	color: white;
+}
+
+
+
+
+
